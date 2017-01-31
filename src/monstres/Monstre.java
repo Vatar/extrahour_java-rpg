@@ -1,5 +1,7 @@
 package monstres;
 
-public interface Monstre {
+import systeme.Personnage;
+
+public interface Monstre extends Personnage{
 
 }
