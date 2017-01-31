@@ -2,11 +2,11 @@ package monstres;
 
 public class PetitChienVoleurDeGouter implements Monstre {
 	private int vieActuelle;
-	private int vieMax;
-	private int degatsBase;
-	private float precision;
+	private int vieMax = 10;
+	private int degatsBase = 2;
+	private float precision = 0.5;
 	
-	public PetitChienVoleurDeGouter( int vie ){
+	public PetitChienVoleurDeGouter( int niveau ){
 		vieActuelle = vie;
 	}
 
