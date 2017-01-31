@@ -1,5 +1,10 @@
 package objets;
 
-public interface Objet {
+public abstract class Objet {
+	private int valeur;
+	
+	public Objet() {
+		
+	}
 
 }
