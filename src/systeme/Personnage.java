@@ -12,4 +12,6 @@ public interface Personnage {
 	
 	public double getPrecision();
 	
+	public int getNiveau();
+	
 }

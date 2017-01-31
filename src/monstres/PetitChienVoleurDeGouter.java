@@ -1,6 +1,6 @@
 package monstres;
 
-public class PetitChienVoleurDeGouter implements Monstre {
+public class PetitChienVoleurDeGouter extends Monstre {
 	private int vieActuelle;
 	private int vieMax = 5;
 	private int degatsBase = 2;
@@ -8,9 +8,9 @@ public class PetitChienVoleurDeGouter implements Monstre {
 	private int vieParNiveau = 5;
 	private double degatsParNiveau = 0.5 ;
 	
-	public PetitChienVoleurDeGouter( int niveau ){
-		this.vieMax = this.vieMax + vieParNiveau * niveau;
-		this.degatsBase = (int) (degatsBase + degatsParNiveau * niveau);
+	public PetitChienVoleurDeGouter( ){
+		this.vieMax = this.vieMax + vieParNiveau * this.niveau;
+		this.degatsBase = (int) (degatsBase + degatsParNiveau * this.niveau);
 		this.vieActuelle = this.vieMax;
 		}
 
