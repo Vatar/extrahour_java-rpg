@@ -10,6 +10,6 @@ public interface Personnage {
 	
 	public int getDegats();
 	
-	public float getPrecision();
+	public double getPrecision();
 	
 }

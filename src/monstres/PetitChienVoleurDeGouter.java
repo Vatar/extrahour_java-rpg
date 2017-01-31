@@ -4,7 +4,7 @@ public class PetitChienVoleurDeGouter implements Monstre {
 	private int vieActuelle;
 	private int vieMax = 10;
 	private int degatsBase = 2;
-	private float precision = 0.5;
+	private double precision = 0.5;
 	
 	public PetitChienVoleurDeGouter( int niveau ){
 		vieActuelle = vie;
@@ -33,7 +33,7 @@ public class PetitChienVoleurDeGouter implements Monstre {
 	}
 
 	@Override
-	public float getPrecision() {
+	public double getPrecision() {
 		return precision;
 	}
 }
