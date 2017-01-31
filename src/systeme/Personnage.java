@@ -8,4 +8,8 @@ public interface Personnage {
 	
 	public void recoitDegats( int degats );
 	
+	public int getDegats();
+	
+	public float getPrecision();
+	
 }

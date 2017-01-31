@@ -3,6 +3,8 @@ package monstres;
 public class PetitChienVoleurDeGouter implements Monstre {
 	private int vieActuelle;
 	private int vieMax;
+	private int degatsBase;
+	private float precision;
 	
 	public PetitChienVoleurDeGouter( int vie ){
 		vieActuelle = vie;
@@ -23,5 +25,15 @@ public class PetitChienVoleurDeGouter implements Monstre {
 	@Override
 	public int getVie() {
 		return vieActuelle;
+	}
+
+	@Override
+	public int getDegats() {
+		return degatsBase;
+	}
+
+	@Override
+	public float getPrecision() {
+		return precision;
 	}
 }
