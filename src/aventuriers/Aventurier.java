@@ -1,5 +1,7 @@
 package aventuriers;
 
-public interface Aventurier {
+import systeme.Personnage;
+
+public interface Aventurier extends Personnage {
 
 }
