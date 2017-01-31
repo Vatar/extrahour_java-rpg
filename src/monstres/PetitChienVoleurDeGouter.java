@@ -6,8 +6,7 @@ public class PetitChienVoleurDeGouter implements Monstre {
 	private int degatsBase = 2;
 	private double precision = 0.5;
 	
-	public PetitChienVoleurDeGouter( int niveau ){
-		vieActuelle = vie;
+	public PetitChienVoleurDeGouter( ){
 	}
 
 	@Override
